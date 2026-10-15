@@ -1,9 +1,10 @@
 Pre-Requisite: Python
 
-How to Run: python app.py
+How to Run: 
+python -m http.server 8000
 
 Then Open Browser: 
-python -m http.server 8000
+http://localhost:8000
 
 ### Level 1 Design Decisions
 For optimal readability, a unified color legend is utilized for both the minimum and maximum temperature visualizations. While distinct legends could have been easily implemented, maintaining a single, consistent scale prevents confusion and allows for seamless, direct comparison when analyzing colder temperature trends across both datasets.
